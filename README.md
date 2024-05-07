@@ -62,6 +62,7 @@ This folder holds all of the local image, audio and video assets.
 - `startup.ogg` - This is the sound that plays on page load.
 
 ### /assets folder
+
 - `/info/general-config.json` - Edit this to change which mission loads initially, set the pilot information, and other ease-of-use options that have been introduced to modify how the site works. Below are the values you might have to change.
   - `initialSlug` - Controls what mission file is selected on startup. This MUST match the slug of a markdown file within the `/public/missions/` directory.
   - `planetPath` - The path (relative to the root directory of this repository) to the .webm or .gif file to use for the planet video element.

@@ -1,0 +1,340 @@
+{
+	"id": "d5bb719c-006b-447e-93a0-bf6302842551",
+	"level": 2,
+	"callsign": "Mercury",
+	"bloodhound_callsign": "Bloodhound 3",
+	"name": "Claire McDonald ",
+	"player_name": "",
+	"status": "Active",
+	"dead": false,
+	"text_appearance": "",
+	"notes": "",
+	"history": "",
+	"quirks": [],
+	"current_hp": 10,
+	"background": "Penal Colonist",
+	"resistances": [],
+	"mechs": [
+		{
+			"id": "a05b902b-9c88-4a3e-8080-d593c5ff2b9a",
+			"name": "A soothing tale",
+			"notes": "",
+			"gm_note": "",
+			"frame": "gs_anansi",
+			"active": false,
+			"current_structure": 4,
+			"current_move": 4,
+			"boost": 0,
+			"current_hp": 13,
+			"overshield": 0,
+			"current_stress": 4,
+			"current_heat": 0,
+			"current_repairs": 4,
+			"current_overcharge": 0,
+			"current_core_energy": 1,
+			"statuses": [],
+			"conditions": [],
+			"resistances": [],
+			"reactions": [],
+			"burn": 0,
+			"destroyed": false,
+			"defeat": "",
+			"activations": 1,
+			"meltdown_imminent": false,
+			"reactor_destroyed": false,
+			"core_active": false,
+			"cc_ver": "ERR",
+			"lastModified": "Sat Jan 20 2024 01:54:16 GMT-0700 (Mountain Standard Time)",
+			"isDeleted": false,
+			"expireTime": "",
+			"deleteTime": "",
+			"portrait": "",
+			"cloud_portrait": "",
+			"loadouts": [
+				{
+					"id": "90f314d5-284a-4fcd-b538-1c29a39c00aa",
+					"name": "Primary",
+					"systems": [
+						{
+							"id": "gs_octocamo_ghillie",
+							"uses": 0,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": "Octocamo is the bog-standard in human-scale stealth-tech, a smart fabric that mimics the property of Old Cradle monsters called “Octos'' that could change their color, texture, and pattern to blend into their environment. We at G&S believe that if it was good enough for grandad, its good enough for you- and so we present a mech-frame scaled ghillie cloak made from octocamo. Capable of all the color-changing expected, the ghillie also includes heat-masking systems that makes actually targeting your mech hard as hell! ...as long as you’re actually using something to hide with."
+						},
+						{
+							"id": "gs_trick_charges",
+							"uses": 3,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": "You can do a lot with a powerful electrical charge. You can make explosions, or you can power a somewhat convincing hologram for a good while. Either or really, just a matter of how you kajigger with the switches and fuses n such. Our Trick Charges are mostly battery by volume, but they know *just* how to run to keep the battlefield yours to command!"
+						},
+						{
+							"id": "ms_pattern_a_smoke_charges",
+							"uses": 3,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": ""
+						}
+					],
+					"integratedSystems": [],
+					"mounts": [
+						{
+							"mount_type": "Heavy",
+							"lock": false,
+							"slots": [
+								{
+									"size": "Heavy",
+									"weapon": {
+										"id": "mw_anti_materiel_rifle",
+										"destroyed": false,
+										"cascading": false,
+										"loaded": true,
+										"mod": {
+											"id": "gs_silencer",
+											"uses": 0,
+											"destroyed": false,
+											"cascading": false
+										},
+										"flavorName": "",
+										"flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive” style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+										"customDamageType": null,
+										"maxUseOverride": 0,
+										"uses": 0,
+										"selectedProfile": 0
+									}
+								}
+							],
+							"extra": [],
+							"bonus_effects": [],
+							"modifiable": true
+						},
+						{
+							"mount_type": "Main",
+							"lock": false,
+							"slots": [
+								{
+									"size": "Main",
+									"weapon": {
+										"id": "mw_assault_rifle",
+										"destroyed": false,
+										"cascading": false,
+										"loaded": true,
+										"mod": null,
+										"flavorName": "",
+										"flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+										"customDamageType": null,
+										"maxUseOverride": 0,
+										"uses": 0,
+										"selectedProfile": 0
+									}
+								}
+							],
+							"extra": [],
+							"bonus_effects": [],
+							"modifiable": true
+						}
+					],
+					"integratedMounts": [],
+					"improved_armament": {
+						"mount_type": "Flex",
+						"lock": false,
+						"slots": [{ "size": "Flex", "weapon": null }],
+						"extra": [{ "size": "Auxiliary", "weapon": null }],
+						"bonus_effects": [],
+						"modifiable": true
+					},
+					"superheavy_mounting": {
+						"mount_type": "Superheavy",
+						"lock": false,
+						"slots": [{ "size": "Superheavy", "weapon": null }],
+						"extra": [],
+						"bonus_effects": [],
+						"modifiable": true
+					},
+					"integratedWeapon": {
+						"mount_type": "Aux",
+						"lock": false,
+						"slots": [{ "size": "Auxiliary", "weapon": null }],
+						"extra": [],
+						"bonus_effects": [],
+						"modifiable": true
+					},
+					"extraMounts": [],
+					"extraIntegratedMounts": []
+				}
+			],
+			"active_loadout_index": 0
+		}
+	],
+	"cc_ver": "",
+	"special_equipment": {
+		"PilotGear": [],
+		"Frames": [],
+		"MechWeapons": [],
+		"WeaponMods": [],
+		"MechSystems": [],
+		"SystemMods": []
+	},
+	"combat_history": {
+		"moves": 0,
+		"kills": 0,
+		"damage": 0,
+		"hp_damage": 0,
+		"structure_damage": 0,
+		"overshield": 0,
+		"heat_damage": 0,
+		"reactor_damage": 0,
+		"overcharge_uses": 0,
+		"core_uses": 0
+	},
+	"state": {
+		"active_mech_id": "a05b902b-9c88-4a3e-8080-d593c5ff2b9a",
+		"remote_mech_id": "",
+		"stage": "Narrative",
+		"turn": 1,
+		"mission": 0,
+		"actions": 2,
+		"braced": false,
+		"overcharged": false,
+		"prepare": false,
+		"bracedCooldown": false,
+		"redundant": false,
+		"stats": {
+			"moves": 0,
+			"kills": 0,
+			"damage": 0,
+			"hp_damage": 0,
+			"structure_damage": 0,
+			"overshield": 0,
+			"heat_damage": 0,
+			"reactor_damage": 0,
+			"overcharge_uses": 0,
+			"core_uses": 0
+		},
+		"deployed": []
+	},
+	"lastModified": "Mon Feb 12 2024 21:50:43 GMT-0700 (Mountain Standard Time)",
+	"isDeleted": false,
+	"expireTime": "",
+	"deleteTime": "",
+	"lastUpdate_cloud": "Mon Feb 12 2024 00:03:40 GMT-0700 (Mountain Standard Time)",
+	"lastSync": "Mon Feb 12 2024 00:03:40 GMT-0700 (Mountain Standard Time)",
+	"skills": [
+		{ "id": "sk_apply_fists_to_faces", "rank": 1 },
+		{ "id": "sk_get_somewhere_quickly", "rank": 1 },
+		{ "id": "sk_spot", "rank": 1 },
+		{ "id": "sk_stay_cool", "rank": 1 },
+		{ "id": "sk_survive", "rank": 1 },
+		{ "id": "sk_word_on_the_street", "rank": 1 }
+	],
+	"talents": [
+		{ "id": "t_crack_shot", "rank": 2 },
+		{ "id": "t_infiltrator", "rank": 2 },
+		{ "id": "t_field_analyst", "rank": 1 }
+	],
+	"mechSkills": [2, 0, 0, 2],
+	"counter_data": [],
+	"custom_counters": [],
+	"core_bonuses": [],
+	"licenses": [{ "id": "gs_anansi", "rank": 2 }],
+	"reserves": [],
+	"orgs": [],
+	"bondId": "ktb-bond-pathfinder",
+	"xp": 0,
+	"stress": 0,
+	"isBroken": false,
+	"burdens": [],
+	"bondPowers": [
+		{
+			"name": "Beginner’s Luck",
+			"description": "When you try an activity or skill you’ve never tried before, you get +1 Accuracy and increased effect to checks related to that skill for the rest of the session. This only ever works once for each activity or skill."
+		}
+	],
+	"powerSelections": 0,
+	"maxStress": 8,
+	"bondAnswers": ["A star map given to you long ago by an old friend.", "The edge of the world."],
+	"minorIdeal": "I beheld a unique, interesting, or beautiful sight.",
+	"clocks": [],
+	"group": "",
+	"sort_index": -1,
+	"portrait": "",
+	"cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:5bf28597-e856-4979-acd5-22fa0cd40166/pilot/IMG_5158.jpeg",
+	"loadout": {
+		"id": "970df801-8715-414c-870b-b3187c1ca1d1",
+		"name": "Primary",
+		"armor": [
+			{
+				"id": "pg_light_hardsuit",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "Light hardsuits are usually made from reactive, cloth-like weaves, with limited plating and few powered components to maximize mobility. Like other hardsuits, they can be sealed against vacuum, and protect against a decent amount of radiation and other harmful particles.",
+				"customDamageType": null
+			}
+		],
+		"weapons": [
+			{
+				"id": "pg_medium_a_c",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "Medium A/C weapons are typically swords, officer’s sabers, and trench axes.",
+				"customDamageType": null
+			},
+			{
+				"id": "pg_heavy_signature",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
+				"customDamageType": null
+			}
+		],
+		"gear": [
+			{
+				"id": "pg_extra_rations",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "Pilot rations aren’t much better than their nautical forerunners – both are variants on hardtack and nutrient paste. Pilots often carry a stash of extra food, or luxuries like chocolate, coffee, alcohol, or preserved goods from their homeworld. These rations can be used to barter or boost morale.",
+				"customDamageType": null
+			},
+			{
+				"id": "pg_smart_scope",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting.",
+				"customDamageType": null
+			},
+			{
+				"id": "pg_patch",
+				"destroyed": false,
+				"uses": 1,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "“Patch” is pilot slang for any kind of modern first aid gear, including sprayable medi-gel and instant-acting medical patches.<br>Expend a charge to apply a patch to either yourself or an adjacent pilot, restoring half their maximum HP. Patches have no effect on Down and Out pilots.",
+				"customDamageType": null
+			}
+		],
+		"extendedWeapons": [null],
+		"extendedGear": [null, null]
+	},
+	"brews": [
+		{
+			"LcpId": "Gwa+sX2rrx70M8zuetsvcx0Eopw=",
+			"LcpName": "Grimm & Sons",
+			"LcpVersion": "0.93",
+			"Website": "https://docs.google.com/document/d/1c7quBu5-Kc1oZ_xCDEh1jecafMZF9w346VmT3cV5PmY/edit?usp=sharing"
+		}
+	]
+}

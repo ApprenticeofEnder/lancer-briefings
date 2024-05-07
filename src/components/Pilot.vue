@@ -4,6 +4,10 @@
       <img :src="pilotInfo.cloud_portrait" class="portrait" />
       <div class="pilot-info">
         <div class="callsign">
+          <h1>TAC Name</h1>
+          <h2>{{ pilotInfo.bloodhound_callsign }}</h2>
+        </div>
+        <div class="name">
           <h1>Callsign</h1>
           <h2>{{ pilotInfo.callsign }}</h2>
         </div>

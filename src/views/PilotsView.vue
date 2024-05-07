@@ -10,7 +10,7 @@
 		<div class="section-content-container">
 			<div class="pilot-list-container">
 				<Pilot
-				  v-for="item in pilots"
+				  v-for="item in bloodhoundRank"
 				  :key="item.callsign"
 				  :pilot="item"
 				  :animate="animate" />
@@ -41,5 +41,14 @@ export default {
 	data() {
 		return {};
 	},
+	computed: {
+		bloodhoundRank(){
+			return [...this.pilots].sort(
+				(a,b) => {
+					return a.bloodhound_callsign.localeCompare(b.bloodhound_callsign);
+				}
+			)
+		}
+	}
 };
 </script>

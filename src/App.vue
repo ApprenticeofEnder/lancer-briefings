@@ -77,14 +77,14 @@ export default {
 		this.$router.push("/status");
 	},
 	methods: {
-    setTitleFavicon(title, favicon) {
-      document.title = title;
-      let headEl = document.querySelector('head');
-      let faviconEl = document.createElement('link');
-      faviconEl.setAttribute('rel','shortcut icon');
-      faviconEl.setAttribute('href',favicon);
-      headEl.appendChild(faviconEl);
-    },
+		setTitleFavicon(title, favicon) {
+		document.title = title;
+		let headEl = document.querySelector('head');
+		let faviconEl = document.createElement('link');
+		faviconEl.setAttribute('rel','shortcut icon');
+		faviconEl.setAttribute('href',favicon);
+		headEl.appendChild(faviconEl);
+		},
 		async importMissions(files) {
 			let filePromises = Object.keys(files).map(path => files[path]());
 			let fileContents = await Promise.all(filePromises);
