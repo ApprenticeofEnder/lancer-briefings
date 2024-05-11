@@ -1,0 +1,637 @@
+[
+	{
+		"id": "gs_john_henry",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "JOHN HENRY",
+		"mechtype": ["Striker"],
+		"image_url": "https://art.ngfiles.com/images/742000/742645_moiderah_john-henry.jpg?f1545105068",
+		"y_pos": 15,
+		"description": "Formerly an Industrial Mech meant for work both in Colony-building and in the maintenance of Solar Rails, the G&S John Henry is a legacy suite of tools and weapons meant for the dangerous work of building beyond the comfort of atmosphere. When the original Contract  with Union that gave birth to the John Henry was up; G&S were rich enough to play on the galactic field, but out of a job. So what did they do? They repackaged John Henry for military licensing, spinning a successful industrial mech into a battlemech and creating the rough and tumble legacy of Grimm & Sons. Without the John Henry, G&S would not exist.",
+		"mounts": ["Heavy", "Main"],
+		"stats": {
+			"size": 2,
+			"structure": 4,
+			"stress": 4,
+			"armor": 2,
+			"hp": 10,
+			"evasion": 6,
+			"edef": 6,
+			"heatcap": 6,
+			"repcap": 4,
+			"sensor_range": 5,
+			"tech_attack": -2,
+			"save": 10,
+			"speed": 3,
+			"sp": 5
+		},
+		"traits": [
+			{
+				"name": "Heavy Frame",
+				"description": "The John Henry cannot be knocked back or prone by actors smaller than itself."
+			},
+			{
+				"name": "A Mighty Man",
+				"description": "When John Henry inflicts knockback to a target with a melee attack, it may take 1 Heat (Self) to force the target to make a Hull Save or be knocked prone."
+			},
+			{
+				"name": "Steel Driving Man",
+				"description": "John Henry treats Prone targets as Shredded when making melee attacks."
+			},
+			{
+				"name": "Slow",
+				"description": "John Henry has +1 Difficulty on Agility checks and saves.",
+				"synergies": [
+					{
+						"locations": ["agility", "skill_check"],
+						"detail": "The John Henry gains +1 Difficulty on Agility checks and saves."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "RAIL-DRIVER",
+			"description": "Born with a twenty ton hammer right in its hand, the G&S John Henry was designed to fulfill a UNION contract for the construction of Blinkgates and Solar Rails. With the massive mechs birth came the G&S Rail-Driver: An adamant compound hammer capable of the kind of work required on those massive projects. When the John Henry was repackaged for military use, the hammer was not removed. To do so, it was said, would kill the soul that made the mech.",
+			"active_name": "Mountain-Powdering Blows",
+			"active_effect": "<i>Even outside the weight of gravity, John Henry is too strong for his own damn good.</i><br> The Rail-Driver gains the following weapon profile, replacing the original for the rest of the Scene:<br><br><b>Rail-Driver, Overclocked</b><br>Heavy Melee<br>Heat 4 (Self)<br>Threat 1<br>2d6+6 Kinetic Damage<br><b>On Hit:</b> Place a Blast 1 with at least one space adjacent to you, all characters in this blast must make a Hull save or be Immobilized until the end of your next turn and knocked prone. The original target makes this save at +1 Difficulty, even if they are not in the Blast. All objects in the blast take 30 AP kinetic damage from the shockwaves of your mighty hammer.",
+			"activation": "Protocol",
+			"use": "Encounter",
+			"integrated": ["gs_raildriver"]
+		}
+	},
+
+	{
+		"id": "gs_bunyan",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "BUNYAN",
+		"mechtype": ["Defender"],
+		"image_url": "https://external-preview.redd.it/JHUwgsQNfsOV6zBnPjqHvIpjFOzi10yt8GtP2wY-1aI.jpg?auto=webp&s=709113ac9975d200eff9649beeed2611904cbaf9",
+		"y_pos": 23,
+		"description": "This big lug used to be an industrimech, meant for hauling materials, setting up arcologies, that kinda stuff. The drone too, it was just for keeping workers safe incase the building came down. Sure you can have a C/C do the job, subalterns, but that’s not right. Men need work to stay sane, and you know? Sometimes, bigger is better. We don’t mean to be crass! It’s just a fact sometimes. When you need a point held, when you need people kept safe, when the chips are down and everyone needs a second to catch their breath... that’s where Bunyan shines. The biggest mech on offer from we here at G&S. That’s Bunyan. The last bastion, the one who wades through the thick of it, axe in hand and BABE Drone at his side. C’mon pilot, step up to the plate and see if you can’t make a tale to be astounded by! ",
+		"mounts": ["Heavy"],
+		"stats": {
+			"size": 3,
+			"structure": 4,
+			"stress": 4,
+			"armor": 1,
+			"hp": 12,
+			"evasion": 6,
+			"edef": 6,
+			"heatcap": 5,
+			"repcap": 6,
+			"sensor_range": 5,
+			"tech_attack": 0,
+			"save": 10,
+			"speed": 3,
+			"sp": 6
+		},
+		"traits": [
+			{
+				"name": "Guardian",
+				"description": "The Bunyan can be used for hard cover by adjacent allied characters."
+			},
+			{
+				"name": "Heavy Frame",
+				"description": "The Bunyan cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself."
+			},
+			{
+				"name": "Slow",
+				"description": "The Bunyan gets +1 Difficulty on agility checks and saves.",
+				"synergies": [
+					{
+						"locations": ["agility", "skill_check"],
+						"detail": "The Bunyan gains +1 Difficulty on Agility checks and saves."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "BALLISTIC/ADVANCED BARRIER ENHANCEMENT DRONE",
+			"description": "The Ballistic/Advanced Barrier Enhancement (BABE) Drone is some of the fanciest tech G&S has ever managed to get off the ground without it going up in flames on them. The frankly massive and clunky drone manages to output powerful shield to defend its core Frame from incoming kinetic/ballistic fire, but most pilots see fit to use it to help their friends. G&S knows its customer base well, and the full production line of Bunyan includes a built-in BABE drone, capable of being supercharged with a dump from the coldcore. The tell-tale blue is your friend, pilot, trust in BABE and he’ll bring your lance home.",
+			"active_name": "Big Blue Friend",
+			"active_effect": "You place your BABE Drone in an unoccupied space within your sensor range, it generates a Burst 3 shield that is bubble-shaped. Any attempts to enter or exit the shield through movement of any sort must roll 1d6, on a 4+ the movement fails and the moving character takes 3 Kinetic Damage that cannot be reduced. Any attack (tech, melee, ranged) that crosses the barrier must roll a d6, on a 4+ the attack fails. You may reposition the drone with a Quick Action on your turn.",
+			"activation": "Quick",
+			"use": "Encounter",
+			"passive_name": "BABE Drone",
+			"passive_effect": "As a reaction to an incoming attack, 1/round you may give yourself or an ally within your sensor range resistance to kinetic damage until the start of their turn."
+		}
+	},
+
+	{
+		"id": "gs_volk",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "VOLK",
+		"mechtype": ["Striker"],
+		"image_url": "https://art.ngfiles.com/images/750000/750631_moiderah_volk.jpg?f1545411922",
+		"y_pos": 17,
+		"description": "The Volk is perhaps most well known for its use in the frontier, where G&S market it as the ultimate in cheap and effective colony defense. Originally modified from lumber-mech designs, the Volk’s been... tweaked... over the years by the enthusiastic Grimm engineers to the point where it bares little resemblance to WOODSMAN class logger-mechs that are its direct predecessors. Now it resembles nothing so much as a hot-rod engine that powers chainsaws, dead sprinting into gangs of pirates and tearing them apart. Speed, force, and rending teeth are the traits Volk uses in the prosecution of its duties.  Some people call it a ripoff of the Blackbeard. Maybe. Maybe. That lawsuit didn’t prove anything for anyone and was just really a waste of time. What matters is that our customers appreciate the finer things in life. Like not breaking the bank on colony defense or hyperfauna hunting... and some days...<br><br>Some days the pirates say “My, what big saws you’ve got...” and you just have to answer<br><br>“All the better to rip n tear, my dear”",
+		"mounts": ["Main/Aux", "Flex"],
+		"stats": {
+			"size": 1,
+			"structure": 4,
+			"stress": 4,
+			"armor": 1,
+			"hp": 12,
+			"evasion": 8,
+			"edef": 6,
+			"heatcap": 4,
+			"repcap": 5,
+			"sensor_range": 5,
+			"tech_attack": -2,
+			"save": 11,
+			"speed": 6,
+			"sp": 6
+		},
+		"traits": [
+			{
+				"name": "Howling Jets",
+				"description": "The Volk may fly when it moves or boosts, but must land at the end of its movement. If it does not land, it falls.",
+				"synergies": [
+					{
+						"locations": ["move"],
+						"detail": "The Volk may fly when it moves or boosts, but must land at the end of its movement. If it does not land, it falls."
+					}
+				]
+			},
+			{
+				"name": "Biting Saws",
+				"description": "The Volk may freely cling to and climb surfaces large enough to support it, digging saws into them to scrabble up into place."
+			},
+			{
+				"name": "Exposed Reactor",
+				"description": "The Volk has +1 Difficulty on Engineering checks and saves.",
+				"synergies": [
+					{
+						"locations": ["engineering", "skill checks"],
+						"detail": "The Volk has +1 Difficulty on Engineering checks and saves."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "FENRIR SHREDDERS",
+			"description": "Original the “Chainhands” of the Woodsman-class lumber mech, the Fenrir Shredders have been as overtuned and modified as the rest of the Volk- turning a simple utility into a deadly beast. With Adamant compound teeth and direct power-lines to the Volk’s coldcore, the Shredders would be deadly enough. What makes them truly terrible is the blistering speed at which a properly acclimated pilot can swing a seemingly empty hand and tear the head off an unsuspecting victim. In closer-than-close quarters, no one is more deadly than a Volk with saws revved to full speed.",
+			"active_name": "Screaming Saws",
+			"active_effect": "Until the end of the scene, when you activate Fenrir Shredders, you may hit as many targets within 3 Spaces as you please. Any targets struck with the Fenrir Shredders may not make Overwatch attacks against you",
+			"use": "Encounter",
+			"activation": "Protocol",
+			"passive_name": "Fenrir Shredders",
+			"passive_effect": "1/Round, when the Volk hits a character with a melee attack, it can deal 3 AP Kinetic Damage to another character in Range 3",
+			"passive_synergies": [
+				{
+					"locations": ["weapon"],
+					"weapon_types": ["Melee"],
+					"weapon_sizes": ["any"],
+					"detail": "1/Round, when the Volk hits a character with a melee attack, it can deal 3 AP Kinetic Damage to another character in Range 3"
+				}
+			]
+		}
+	},
+
+	{
+		"id": "gs_jack",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "JACK",
+		"mechtype": ["Striker", "Support"],
+		"image_url": "https://i.pinimg.com/originals/ea/2e/3a/ea2e3aec28e66756202d70877a3789be.jpg",
+		"y_pos": 20,
+		"description": "Built to compliment the Volk, the Grimm & Sons Jack is a solidly built line-mech meant for use on frontier worlds. Boasted that it “Never needs a reload” and “Keeps on going when the going gets tough” the Jack none-the-less suffers from heat problems and problems keeping its signature plasma weapons working when it runs out of cooling racks. Its expertise, however, truly lays in fighting things bigger than itself and supplying others with the means to survive encounters with the kind of frankly stupid huge things one can run into on the frontier. Everyone underestimates the little guy, but Jack has a habit of giant-slaying.",
+		"mounts": ["Main", "Aux/Aux"],
+		"stats": {
+			"size": 0.5,
+			"structure": 4,
+			"stress": 4,
+			"armor": 1,
+			"hp": 6,
+			"evasion": 10,
+			"edef": 8,
+			"heatcap": 5,
+			"repcap": 4,
+			"sensor_range": 10,
+			"tech_attack": 0,
+			"save": 10,
+			"speed": 6,
+			"sp": 6
+		},
+		"traits": [
+			{
+				"name": "Giantkiller",
+				"description": "The Jack ignores engagement from actors larger than itself. It can share spaces with larger actors (even hostile ones) and move through their spaces unimpeded. While the Jack shares space with a character, it has soft cover from all sources and resistance to all damage from the character it shares a space with."
+			},
+			{
+				"name": "Adventurer",
+				"description": "The Jack may climb and jump at full speed.",
+				"synergies": [
+					{
+						"locations": ["move"],
+						"detail": "The Jack may climb and jump at full speed."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "'BEANSTALK' CLIMBING GEAR",
+			"description": "Built out of climbing gear for use on mountainous frontier worlds and proved the Mediterranean planet of Au Nova (Though there are rumours of G&S trying to smuggle Jacks onto Ras Shamara), the “Beanstalk” climbing gear normally just helps the Jack handle rough terrain. But you know... if we hook it up into your COLDORE, we can probably like, supercharge the magnetics and get you a good enough grip to actually get up on another mech.",
+			"active_name": "Scaling the Beanstalk",
+			"active_effect": "Gain the following Quick action for the rest of the Scene: <br>The Jack may attempt to Jockey a mech larger than itself that is adjacent with an AGILITY VS HULL test. If successful the Jack moves into the opposing mech's square and moves when they do. You gain Hard Cover against ranged attacks and the enemy mech can attempt to shake you off with another Agi (Jack) VS Hull (opponent) as a free action on its turn. The mounted mech may attempt to attack the Jack while it Jockeys, but suffers +1 Difficulty when doing so. You also gain the following actions on your turn (using one after you jump on if you have the actions to do so): <br> <br>Sabotage- Inflict either Immobilized or Jammed on the jockeyed mech until the end of their next turn. <br>Wreck- Deal 4 Heat to your target. <br>Open Fire- Fire with one of your weapons, ignoring Armor and Resistance. Damage is decided by the size of the weapon: <br> -Aux (1d3+2) <br> -Main (1d6+4)",
+			"activation": "Protocol",
+			"use": "Encounter"
+		}
+	},
+
+	{
+		"id": "gs_dorothy",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "DOROTHY",
+		"mechtype": ["Support"],
+		"image_url": "https://pbs.twimg.com/media/Ek5JnkEW0AQ_Ion?format=jpg&name=4096x4096",
+		"y_pos": 52,
+		"description": "Dorothy was designed for something other than the battlefield, like her brothers and sisters in the G&S line up. She was built for search and rescue operations, to move into and through destruction and flames and get humans to safety, utilizing a simple nanite-driven suppression foam as the signature system. Of course, the Grimm clan can’t help themselves, taking a tool built by their relatives in Clan Zahedi and turning it into a combat support mech. With just slight modifications its nanite suppression foam becomes ravenous stripper-swarms that work to peel armor off enemy mechs. When the armor is finally peeled off, the swarms bring it to a friendly to help patch them up! Its efficient don’tcha know!",
+		"mounts": ["Main", "Main/Aux"],
+		"stats": {
+			"size": 0.5,
+			"structure": 4,
+			"stress": 4,
+			"armor": 1,
+			"hp": 8,
+			"evasion": 8,
+			"edef": 8,
+			"heatcap": 5,
+			"repcap": 5,
+			"sensor_range": 10,
+			"tech_attack": 0,
+			"save": 11,
+			"speed": 5,
+			"sp": 7
+		},
+		"traits": [
+			{
+				"name": "Environmental Sealing",
+				"description": "The Dorothy has resistance to environmental damage (such as Dangerous Terrain, extreme heat, void, extreme cold, et al) and cannot have Burn applied by environmental effects."
+			},
+			{
+				"name": "Adventurer",
+				"description": "The Dorothy may climb and jump at full speed.",
+				"synergies": [
+					{
+						"locations": ["move"],
+						"detail": "The Dorothy may climb and jump at full speed."
+					}
+				]
+			},
+			{
+				"name": "Emergency Boosters",
+				"description": "The Dorothy always counts as having flight while underwater and 0g environments."
+			}
+		],
+		"core_system": {
+			"name": "EMERALD CLASS EMERGENCY RESPONSE KIT",
+			"description": "The Emerald Emergency Response system uses Stripper-Swarm nanites to tear away at ruins and create armor and shelter to... well rescue people. What happens when you overclock the Hive that produces the nanites? Like with a Coldcore? Well They turn into the best damn suppression foam in the galactic arm! “Suppress” isn’t even the right word for its properties! It's a damn panacea!",
+			"active_name": "Suppression Foam",
+			"active_effect": "Create a burst 10 area. End all conditions that the Stabilize Action could end on friendly actors in this area. Hostile actors in this area must make an Agility save. On a failure, they are inflicted Nanite Coated (5), or Nanite Coated (2) on a successful save.",
+			"activation": "Quick",
+			"use": "Encounter"
+		}
+	},
+
+	{
+		"id": "gs_magarac",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "MAGARAC",
+		"mechtype": ["Support"],
+		"image_url": "https://pbs.twimg.com/media/Ek5JqMjWMAAZJy1?format=jpg&name=4096x4096",
+		"y_pos": 42,
+		"description": "Imagine it, won't you? We just take one of the orbital forges... and we put legs on it. We make it make things. The smiths and engineers all subalterns networked under a Mother Goose clone and Pilot working in tandem. A fortress. A factory. It'll turn back death. It'll do everything we need to make our Promise. No more working into the grave. Just this. A magnum opus.<br><b>Magarac</b><br>-Charity Zahedi, Lead Developer of the MAGARAC Production Project<br><br>Born from the promise of Grimm & Sons and the work of the Zahedi Clan, MAGARAC is a promise made flesh in steel and fire. An orbital print-forge on legs, capable of creating entire towns in a matter of hours, of putting together mechs in a matter of minutes, of making everything that needs to be made. Within its titanic bulk is a veritable army of drones and subalterns, networked to the Pilot through a series of complex command/control structures. The MAGARAC is in full production, despite being a new design, sent out to the borderlands and frontiers of the galaxy where G&S sees the need for their Promise- “Working for the Promised Land.”",
+		"mounts": ["Flex"],
+		"stats": {
+			"size": 4,
+			"structure": 4,
+			"stress": 4,
+			"armor": 2,
+			"hp": 12,
+			"evasion": 6,
+			"edef": 6,
+			"heatcap": 5,
+			"repcap": 10,
+			"sensor_range": 5,
+			"tech_attack": 0,
+			"save": 10,
+			"speed": 2,
+			"sp": 6
+		},
+		"traits": [
+			{
+				"name": "Behemoth",
+				"description": "Allies may end their movement within the Magarac's spaces and adjacent allies may use it as Hard Cover. The Magarac cannot take the Hide action, nor benefit from Invisibility."
+			},
+			{
+				"name": "Walking Factory",
+				"description": "At your discretion, other characters adjacent to or within Burst 2 of the Magarac can spend its Repairs as their own, many automated arms and subaltern engineers rushing to do the work.",
+				"synergies": [
+					{
+						"locations": ["repair"],
+						"detail": "At your discretion, other characters adjacent to or within Burst 2 of the Magarac can spend its Repairs as their own, many automated arms and subaltern engineers rushing to do the work."
+					}
+				]
+			},
+			{
+				"name": "Entrench",
+				"description": "When the Magarac is Immobilized or spends a Quick Action to become Immobilized until the start of its next turn, it gains Hard Cover and creates a Burst 1 of Difficult Terrain for the same duration as it hastily erects spiked palisades."
+			},
+			{
+				"name": "Slow",
+				"description": "The Magarac gets +1 Difficulty on Agility checks and saves.",
+				"synergies": [
+					{
+						"locations": ["agility", "skill check"],
+						"detail": "The Magarac gets +1 Difficulty on Agility checks and saves."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "BROTHERHOOD AUTOMATED FACTORY-FORTRESS",
+			"description": "Look, behold, it's almost ready. It is everything we’ve worked for over the centuries. With this, we won’t have to work for the Promised Land anymore. It’ll be here. In the Factory. In the Fortress. A mech built our fortunes, a mech will make everyone’s fortunes. Teams of subaltern engineers and automated armoring systems. We built the entire mech around an orbital-forge grade printer. It’ll make a miracle.<br>We’ve waited so long for this day, someone to take the death away. We’re doing it, by our own hands. No one else will. We’ll make sure of it. No one has to die, not today, not ever again.<br>I promise.<br>-Charity Zahedi",
+			"active_name": "Overclock Production Modules - Turn Back Death",
+			"active_effect": "For the rest of the scene, 1/round when an ally within your sensor range would Lose Structure or become Destroyed, you may as a reaction roll 1d6. On a 3+ their HP is set to 1 and they do not lose the Structure or become Destroyed. If an ally is adjacent to you, this effect happens automatically with no need to roll.",
+			"activation": "Protocol",
+			"use": "Encounter",
+			"passive_name": "Flash-Production Modules",
+			"passive_effect": "As a full action you may spend 4 repairs and return an adjacent, destroyed ally to 1 Structure/1 Reactor Stress and 1 HP.",
+			"passive_synergies": [
+				{
+					"locations": ["repair"],
+					"detail": "As a full action you may spend 4 repairs and return an adjacent, destroyed ally to 1 Structure/1 Reactor Stress and 1 HP."
+				}
+			]
+		}
+	},
+
+	{
+		"id": "gs_orlando",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "ORLANDO",
+		"mechtype": ["Striker"],
+		"image_url": "https://i.pinimg.com/originals/e4/72/93/e47293978e2956008ea5f642721b63a9.jpg",
+		"y_pos": 15,
+		"description": "The Absolute Newest, the very Pinnacle of G&S Design, the Orlando is built to do one thing, and one thing alone. To lead the charge. Given only to Pilots with strong ties to the Grimm clan (or with the cash and prestige to get into such inner circles), the Orlando will be ready for full production within the standard year… If the tests keep going as well as they’re going at least. Lotta melted engines in this one. G&S promises that the full production run DEFINITELY won’t do the thing the prototypes sometimes do, which is get stuck in full gear and careen through a couple of buildings and off a cliff. Good news is the prototypes were going fast enough to activate the Curtana Active Shield! Bad news is they were going fast enough to give the test pilots whiplash of the everything.",
+		"mounts": ["Heavy", "Main"],
+		"stats": {
+			"size": 1,
+			"structure": 4,
+			"stress": 4,
+			"armor": 1,
+			"hp": 10,
+			"evasion": 8,
+			"edef": 6,
+			"heatcap": 4,
+			"repcap": 4,
+			"sensor_range": 5,
+			"tech_attack": -2,
+			"save": 10,
+			"speed": 6,
+			"sp": 6
+		},
+		"traits": [
+			{
+				"name": "Curtana Passive Shields",
+				"description": "The Orlando has resistance to all damage while moving and always counts as size 3 when making Rams.",
+				"synergies": [
+					{
+						"locations": ["move", "ram"],
+						"detail": "The Orlando has resistance to all damage while moving and always counts as size 3 when making Rams."
+					}
+				]
+			},
+			{
+				"name": "Momentum",
+				"description": "When the Orlando inflicts involuntary movement as part of any action, it can Slide the same number of spaces afterwards as a free action or reaction, as long as it moves towards its target by the most direct route possible."
+			},
+			{
+				"name": "Slam",
+				"description": "1/round when the Orlando knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it’s target takes 2 kinetic damage and becomes impaired until the end of its next turn."
+			},
+			{
+				"name": "Exposed Reactor",
+				"description": "The Orlando gets +1 Difficulty on Engineering checks and saves.",
+				"synergies": [
+					{
+						"locations": ["engineering", "skill check"],
+						"detail": "The Orlando gets +1 Difficulty on Engineering checks and saves."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "CURTANA SHIELD SYSTEMS",
+			"description": "A sort of warp-shield not unlike that found on the HA Saladin, the CURTANA was designed to be used by small spaceships to combat the dangers of atmospheric reentry. That it is now strapped into the Orlando, it has the problem that Orlando’s engines only generate enough power to activate a weak barrier while under high speeds. If one was to say, dump the full might of a Coldcore engine into the engines and the linked Curtana system however... One could create a massive ‘lance’ of force directed dead ahead! It probably won’t melt the reactor, and it’ll show the galaxy what it means to truly be the tip of the spear.",
+			"active_name": "Holy Kingdom Charge",
+			"active_effect": "When you use this action, your mech begins to rev its engines up to speed. Until the start of your next turn, you are Immobilized. If you Overheat or lose a point of Structure, you stop revving and are refunded your Core Power. At the start of your next turn, repeat this full action then draw a Line 20 that is 3 spaces wide from your mech’s position, then place your mech adjacent to the end of this line. All actors caught in this area must make an Agility save at +1 Difficulty or be knocked to the outer edge of the Line, knocked Prone, and suffer 6d6 AP Kinetic Damage. A successful save halves the damage and pushes them to the outer edge of the line. Any obstacles or terrain in the Line are assumed to be smashed through at frankly reckless speeds. ",
+			"activation": "Full"
+		}
+	},
+
+	{
+		"id": "gs_anansi",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "ANANSI",
+		"mechtype": ["Artillery", "Controller"],
+		"image_url": "https://pbs.twimg.com/media/Ek5Jl67XIAMdCZc?format=jpg&name=4096x4096",
+		"y_pos": 15,
+		"description": "The Anansi is the twin of the Orlando, the newest mechs in the lineup and ACTUALLY built for military use. Where the Orlando is the Line-Breaker who crashes through the lines, Anansi is a sniper who provides overwatch and guidance for the entire battlefield. Installed within Anansi is the... semi-advanced “Br’er Spider” Comp/Con created by Clan Vediovis. It does what it needs to, helping the pilot sit at the center of a perfect defensive web. Reports of self-enlightening “Br’er Spider” Units are highly exaggerated, perhaps mistaking the advanced programming for true thought. Though the unit does come pre-installed with a collection of fables meant to help educate less experienced pilots and help gently bring them up to the Combat Standards of Clan Rockatansky, the family most responsible for G&S’s more recent “Real Warrior” design school and marketing philosophy. Despite any rumoured setbacks, the ANANSI is set for full production along with the Orlando, slowly filtering into G&S’ usual markets.",
+		"mounts": ["Heavy", "Main"],
+		"stats": {
+			"size": 1,
+			"structure": 4,
+			"stress": 4,
+			"armor": 0,
+			"hp": 8,
+			"evasion": 8,
+			"edef": 8,
+			"heatcap": 5,
+			"repcap": 3,
+			"sensor_range": 20,
+			"tech_attack": 0,
+			"save": 10,
+			"speed": 4,
+			"sp": 6
+		},
+		"traits": [
+			{
+				"name": "Climbing Rig",
+				"description": "The Anansi can climb and remain stationary on any surface without penalty, including overhanging and vertical surfaces.",
+				"synergies": [
+					{
+						"locations": ["move"],
+						"detail": "The Anansi can climb and remain stationary on any surface without penalty, including overhanging and vertical surfaces."
+					}
+				]
+			},
+			{
+				"name": "Know the Story",
+				"description": "When the Anansi Scans a target, you learn all three listed types of information about it, and you always know the target's current HP until you take the Scan action again. "
+			},
+			{
+				"name": "Don't Throw Me In The Briar Patch!",
+				"description": "The Anansi gains Hard Cover while in Difficult or Dangerous Terrain, and can Boost at full speed through Difficult Terrain."
+			}
+		],
+		"core_system": {
+			"name": "'BR'ER SPIDER' COMPUTATIONAL SYSTEMS",
+			"description": "<span class=\"ra-quiet\">We do not really mean, we do not really mean that what we are about to say is true.<br>A story, a story; let it come, let it go.</span><br>Br’er Spider is always watching from his web, a supposedly sub-sentient Companion-Combat unit designed to compete with the SSC Cloudscout systems. He doesn’t really do as good a job, but there are strange little quirks to Brother Spider that have many a pilot singing his praises.. Most notably his ability assist pilots in setting up “Spiderwebs”, zones of covering fire monitored by Br’er spider while the pilot focuses on more active shotcalling and target-selection. Autonomously, Br’er Spider can grab control of weapons and put bullets where they need to be to lock down zones of control<br><span class=\"ra-quiet\">This is my story which I have related.<br>If it be sweet, or if it be not sweet, take some elsewhere, and let some come back to me.</span>",
+			"active_name": "Anansesem",
+			"active_effect": "Until the end of the scene, whenever you would use Spiderweb, you may create an additional 1d3 Blast 2 areas- they must follow all normal rules for placement and may not touch or overlap. Additionally, targets in your Spiderweb cannot benefit from Hidden or Invisibility.",
+			"activation": "Protocol",
+			"use": "Encounter",
+			"passive_name": "Spiderweb Tactical Oversight Rig",
+			"passive_effect": "Gain the Spiderweb Quick Tech action.",
+			"passive_actions": [
+				{
+					"name": "Spiderweb",
+					"activation": "Quick Tech",
+					"detail": "Take 2 Heat and choose a weapon on your mech without the Blast, Burst, Cone or Line tags and create a Blast 2 area called a Spiderweb entirely within the weapon's Range and line of sight. Hostile characters that move into a Spiderweb must stop moving immediately, losing any unused movement. While a Spiderweb is active, you gain the Watch Your Head! reaction and can't make Overwatch attacks. Spiderwebs last until you take this action again or until you move, including involuntary movement."
+				},
+				{
+					"name": "Watch Your Head!",
+					"activation": "Reaction",
+					"frequency": "1/Round",
+					"trigger": "A hostile character enters a Spiderweb",
+					"detail": "Interrupt the movement or action with a single weapon's attack."
+				}
+			]
+		}
+	},
+
+	{
+		"id": "gs_max",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "MAX",
+		"mechtype": ["Striker"],
+		"description": "This is a story of the Fall.<br>This is a story of a man who lost everything to that most dreadful of our sins. His family. His community. His name. His world. It all burned. It all turned to dust. All that was left to him was this- to wander the wastes and seek a worthy cause to die for.<br>This is a story of the Little Wars.<br>This is the story of men and women who lost more than they could know. Who were broken by the First and Second Traumas. Who had no family. No community. No names. No world. Nothing of their own. It was all turned to blood. All that was left to them was this- to take up the name of another and wander the wastes- to seek a worthy cause to die for.<br>This is a story of Now<br>You do not need this weapon, o Child of the Mountain. We tell these stories and remember them as a dirge. This is no place for us, this is no way for a Child of Mankind to live. This should not exist, but as a memory of our Past and our Flight.<br>But take it, take it if you must.<br>The Black-on-Black.<br>Last of the Mark Eight Interceptors<br>Road-Warrior, Fury-Driven<br>Holy Combustion, Damned Destruction<br>This is Max.",
+		"mounts": ["Flex", "Main"],
+		"stats": {
+			"size": 1,
+			"structure": 4,
+			"stress": 4,
+			"armor": 1,
+			"hp": 8,
+			"evasion": 8,
+			"edef": 6,
+			"heatcap": 8,
+			"repcap": 3,
+			"sensor_range": 5,
+			"tech_attack": -1,
+			"save": 10,
+			"speed": 6,
+			"sp": 5
+		},
+		"traits": [
+			{
+				"name": "Fury Driven",
+				"description": "The Max has Immunity to bonus damage and critical hits, treating them as normal hits."
+			},
+			{
+				"name": "Shoulder Tackle",
+				"description": "The Max counts a Size 3 for Ram attacks and on a successful Ram may immediately Slide 2 spaces.",
+				"synergies": [
+					{
+						"locations": ["ram"],
+						"detail": "The Max counts a Size 3 for Ram attacks and on a successful Ram may immediately Slide 2 spaces."
+					}
+				]
+			},
+			{
+				"name": "Road Warrior",
+				"description": "The Max can move through the spaces of Prone or Immobilized characters though it cannot end it’s turn in them. 1/Round when it moves through another character's space they take 1d6 Kinetic Damage.",
+				"synergies": [
+					{
+						"locations": ["move"],
+						"detail": "The Max can move through the spaces of Prone or Immobilized characters though it cannot end it’s turn in them. 1/Round when it moves through another character's space they take 1d6 Kinetic Damage."
+					}
+				]
+			}
+		],
+		"core_system": {
+			"name": "Mk8 SUPER REACTOR",
+			"description": "The Mark 8 Super Reactor is not a coldcore. It is an older beast, from the years of warfare on Cradle, when man learned again of the crimes Cain committed unto Abel. It is a nuclear heart that screams with power barely contained, a wild and untamed thing that spits great gouts of flame and billows of black smoke into the sky. A Mark 8 can pull the kind of speeds rarely seen outside of an SSC racer or a Nelson with full PMD suite- for a fraction of the cost of either. But the Mark 8 is a cruel thing, it pulls the same kind of Gs as those newer machines- with a fraction of the safety.<br>Be careful child, or you’ll die before your task is done, the Mark 8 taking you down to Hell with whomever you duel.",
+			"active_name": "Last of an Ancient Breed",
+			"active_effect": "For the rest of the scene, when you successfully Ram a character, you apply a demolition mark to them - at the start of their next turn, if they have 7 HP or less, only 1 structure remaining, and aren’t immune to damage they are immediately destroyed. Demolition marks are cleared at the end of a marked character's turn. Additionally, 1/round the Max may Ram an adjacent character as a Free Action.",
+			"active_synergies": [
+				{
+					"locations": ["ram"],
+					"detail": "For the rest of the scene, when you successfully Ram a character, you apply a demolition mark to them - at the start of their next turn, if they have 7 HP or less, only 1 structure remaining, and aren’t immune to damage they are immediately destroyed. Demolition marks are cleared at the end of a marked character's turn. Additionally, 1/round the Max may Ram an adjacent character as a Free Action."
+				}
+			],
+			"use": "Encounter",
+			"activation": "Protocol"
+		}
+	},
+
+	{
+		"id": "gs_scheherezade",
+		"license_level": 2,
+		"source": "G&S",
+		"name": "SCHEHERAZADE",
+		"mechtype": ["Controller"],
+		"image_url": "https://pbs.twimg.com/media/D-685DjWsAUp5D5?format=jpg&name=4096x4096",
+		"y_pos": 8,
+		"description": "Here’s a secret. Grimm & Sons don’t know where the original designs for the mech known as the Scheherazade come from. The original printer specs were found in an ancestral Data-Vault in a hidden room in the Grimm Clan’s familial stronghold. It is the most technologically advanced license they offer, free of the troubles that face other G&S cores. It is, to them, a gift from their Ancestors, a gift from the Kings Under The Mountain that will help lead them to the Promised Land. Through the sands and secrets they’ll build perfection, and Paradise will follow.<br><br>The family does as craftsmen do, they build more and more Scheherazades, tinkering and toying with its pieces, trying to use the seemingly arcane technologies within to further the family fortune. Do they have any idea what they’re toying with? Not really. But does that matter? It is a gift from their Ancestors. <br><span class=\"ra-quiet\">[Do you yet understand Mirror-Logic?]</span>",
+		"mounts": ["Flex"],
+		"stats": {
+			"size": 0.5,
+			"structure": 4,
+			"stress": 4,
+			"armor": 0,
+			"hp": 6,
+			"evasion": 8,
+			"edef": 10,
+			"heatcap": 5,
+			"repcap": 3,
+			"sensor_range": 15,
+			"tech_attack": 1,
+			"save": 12,
+			"speed": 5,
+			"sp": 8
+		},
+		"traits": [
+			{
+				"name": "Silver Mirage",
+				"description": "If the Scheherazade is hit by an attack while not Invisible and not suffering Lock-On, it can, 1/round, roll 1d6. On a 5+, the attack automatically misses and is negated."
+			},
+			{
+				"name": "Mirror Logic",
+				"description": "This has all happened before. It will all happen again. You are not yourself. You are a reflection. Mirrors reflect mirrors. We are all within the Dream."
+			},
+			{
+				"name": "Hangar Queen",
+				"description": "Scheherazade must spend 2 repairs to repair a destroyed system during rests instead of 1.",
+				"synergies": [
+					{
+						"locations": ["rest"],
+						"detail": "Scheherazade must spend 2 repairs to repair a destroyed system during rests instead of 1."
+					}
+				]
+			},
+			{
+				"name": "A Favorable Dream",
+				"description": "At the start of the scene, before any turns are taken, the Scheherazade can place up to three mines within Range 50. These mines cannot be placed adjacent to [or within their own Blast of] any character. At the end of the scene, remove any undetonated mines deployed by the Scheherazade. For each of those mines, the Scheherazade regains 1 Limited charge for the system that deployed it."
+			}
+		],
+		"core_system": {
+			"name": "MIRROR-LOGIC BASILISK",
+			"description": "<span class=\"ra-quiet\">We are within the dream of Mirror-Logic. <br>Choose wisely which Mirror you look upon.<br>For you are a Mirror as well.<br>Where you place your gaze decides your actions.<br>There is no self. <br>There is only reflection.<br>Do you understand?</span><br><span class=\"horus--subtle\">[BASILISK DETECTED]<br>[AVERT YOUR GAZE]</span><br><span class=\"ra-quiet\">Hush now.<br>Look Into the Mirrors.</span>",
+			"active_name": "Endless Dreams of the Mirror",
+			"active_effect": "Mark a Burst 5 that lasts 3 Rounds. Any enemy character that starts their turn in this area or enters it for the first time on their turn must make a Systems save or become Jammed until the start of their next turn.",
+			"activation": "Full Tech",
+			"use": "Encounter"
+		}
+	}
+]

@@ -293,12 +293,12 @@
 		},
 		"deployed": []
 	},
-	"lastModified": "Mon Feb 12 2024 21:28:55 GMT-0600 (Central Standard Time)",
+	"lastModified": "Sat May 11 2024 16:27:05 GMT-0500 (Central Daylight Time)",
 	"isDeleted": false,
 	"expireTime": "",
 	"deleteTime": "",
-	"lastUpdate_cloud": "",
-	"lastSync": "",
+	"lastUpdate_cloud": "Mon Apr 15 2024 14:45:54 GMT-0500 (Central Daylight Time)",
+	"lastSync": "Mon Apr 15 2024 14:45:54 GMT-0500 (Central Daylight Time)",
 	"skills": [
 		{ "id": "sk_apply_fists_to_faces", "rank": 2 },
 		{ "id": "sk_assault", "rank": 2 },
@@ -337,7 +337,7 @@
 	"minorIdeal": "I showed someone how it’s done.",
 	"clocks": [],
 	"group": "",
-	"sort_index": 12,
+	"sort_index": 29,
 	"portrait": "",
 	"cloud_portrait": "https://d1nurxym97qk9o.cloudfront.net/public/us-east-1:29e24847-8a47-45b9-b137-d460cafb8b65/pilot/download20240103194445.png",
 	"loadout": {
@@ -345,12 +345,12 @@
 		"name": "Primary",
 		"armor": [
 			{
-				"id": "pg_light_hardsuit",
+				"id": "pg_assault_hardsuit",
 				"destroyed": false,
 				"uses": 0,
 				"cascading": false,
 				"flavorName": "",
-				"flavorDescription": "Light hardsuits are usually made from reactive, cloth-like weaves, with limited plating and few powered components to maximize mobility. Like other hardsuits, they can be sealed against vacuum, and protect against a decent amount of radiation and other harmful particles.",
+				"flavorDescription": "These hardsuits, common among military units, feature heavier plating than light hardsuits but more mobility than heavy hardsuits. They are powered, augmenting the user’s strength, and typically feature an onboard computer, sensor suite, integrated air, burst EVA system, and waste recycling systems.",
 				"customDamageType": null
 			}
 		],

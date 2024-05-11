@@ -1,0 +1,675 @@
+[
+{
+"id": "gs_raildriver",
+"name": "RAIL-DRIVER",
+"mount": "Heavy",
+"type": "Melee",
+"damage": [
+{  "type": "Kinetic",
+  "val": "2d6"
+}
+],
+"range": [{
+  "type": "Threat",
+  "val": 1
+}],
+"tags": [{
+  "id": "tg_heat_self",
+  "val": 1
+},
+{
+"id": "tg_knockback",
+"val": 2  
+}]
+},
+  {
+    "id": "gs_molten_driver",
+    "name": "MOLTEN DRIVER",
+    "mount": "Heavy",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+3"
+      }
+    ],
+    "range": [
+            {
+        "type": "Line",
+        "val": 5
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_unreliable_x",
+        "val": 1
+      },
+      {
+        "id": "tg_exceed",
+	      "val": 2
+      }
+    ],
+    "source": "G&S",
+    "license": "JOHN HENRY",
+    "license_level": 1,
+    "effect": "Exceed (2): This weapon gains +1d6 Bonus Damage",
+    "description": "An iconic piece of equipment for those used to work on Solar Rails, this frankly massive railgun is used mostly for anchoring void-resistant plating to the outside of space stations and is capable of superheating the rails it fires to help with penetration of those heavy materials. The military version forgoes the traditional luna titanium spikes for spikes made almost entirely of Adamant Compounds.",
+    "sp": 0
+  },
+  {
+    "id": "gs_big_bend_bunker",
+    "name": "'BIG BEND' CLASS PILEBUNKER'",
+    "mount": "Superheavy",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "4d6+2"
+      }
+    ],
+    "range": [
+            {
+        "type": "Cone",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_reliable",
+        "val": 4
+      }
+    ],
+    "source": "G&S",
+    "license": "JOHN HENRY",
+    "license_level": 3,
+    "effect": "When unloaded, this weapon may be used with the following profile:<br>Superheavy Melee<br>Threat 1<br> 2d6+2 Kinetic Damage",
+    "description": "Traditionally mech-scale pilebunkers pull back the pistons in a prompt manner, allowing  a rapid use of the full force of the blows. The Big Bend however, is based on much older designs (including the rumoured and feared “Judgement” ) and requires at least a dozen seconds to fully prime for firing. But when it does fire, hoo boy.",
+    "sp": 0
+  },
+  {
+    "id": "gs_shot_spear",
+    "name": "SHOT-SPEAR",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+4"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "source": "G&S",
+    "license": "VOLK",
+    "license_level": 2,
+    "effect": "You may continue to use this weapon without reloading it, dealing 1d6 Kinetic damage on hit.",
+    "description": "A hunting spear with underslung shotgun, originally designed to be used at human-scale for boar hunting. You ever go hunting boars, pilot? Nasty critters. Don’t know when to die. That’s why we put a shotgun in the spear, so you could shoot the boar afore it pushed down the spear and et your damn face. What was I talkin about? Oh yeah! We made it big enough for a mech, so give it a try!",
+    "sp": 0
+  },
+  {
+    "id": "gs_askr_hypersaw",
+    "name": "ASKR HYPERSAW",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "source": "G&S",
+    "license": "VOLK",
+    "license_level": 3,
+    "on_crit": "Your target must pass a Hull save or become Shredded until the end of their next turn and knocked Prone, only becoming Prone on a successful save.",
+    "description": "Combat chainsaws have ever been the obsession of all good mech technicians. We at G&S like to think that between the Fenrir Shredders and the Askr, that we have the finest chainsaws on the market for both combat and utility purposes. The Askr, especially, hits like a truck, chewing up armor and myomar like nobody’s business! Our advice, swing for the legs, bring ‘em down like a tree!",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_jet_axe",
+    "name": "JET AXE",
+    "mount": "Heavy",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "3d3+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_knockback",
+	      "val": "X"
+      },
+      {
+        "id": "tg_overkill"
+      }
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 1,
+    "effect": "The knockback of this weapon is equal to the amount of times Overkill is triggered while rolling damage.",
+    "description": "Would you believe me if I told you this was supposed to be for lumber? Yeah with the jet engine and everything. They get some bigass trees out in the frontier, so we figured, make the axe faster! S’just physics, right? Well, ends up, its actually pretty good for baseball swinging fools the hell out of your buddy’s face when you really open up the jets and let the heat through your frame. What do you mean you don’t know what baseball is.",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_flash_mortar",
+    "name": "FLASH-AMMO MORTAR",
+    "mount": "Heavy",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "3d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_fake_limited"
+      },
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_ap"
+      }      
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 3,
+    "effect": "This weapon’s Limited charges do not increase with Engineering, nor any other Core Bonus or effect that increases limited charges. However, you may expend Repairs to fire this gun instead of using its Limited Charge.",
+    "description": "Yaknow, you can make some pretty cool ammo out of nanoslurry and spare parts! It's true, which is how the Flash-Ammo Mortar fires. Weight restrictions on what our printers could handle means you sorta have to shoot spare parts out of it, but, it hits like a damn truck. Hell! It hits like a whole damn starship!",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_plasma_pistol",
+    "name": "PLASMA PISTOL",
+    "mount": "Auxiliary",
+    "type": "CQB",
+    "source": "G&S",
+    "license": "JACK",
+    "license_level": 1,
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d3"
+      }],
+    "range": [{
+        "type": "Range",
+        "val": 5
+      },{
+        "type": "Threat",
+        "val": 3
+      }],
+      "tags": [{
+        "id": "tg_limited",
+        "val": 3
+      }],
+    "effect": "As a Limited (3) Attack, you may “Supercharge” this weapon, gaining the AP and Unreliable (1) Tags. When you are out of Limited charges, you may still attack with the base profile and a high Engineering score will add more Limited charges as normal.<br><br><b> UNRELIABLE 1:</b> When you attack with this weapon, roll 1d6. On a 4+ the attack gains +1 Difficulty, and deals +2 Bonus Damage on hit.",
+    "description": "Pitched as the ultimate side-arm, the G&S Plasma Pistol is touted as having 0 reloads and superior damage to other energy weapons: drawing hydrogen out of the air to create its solar-hot projectiles, the pistol does have a flaw. To get that extra power, the whole damn pistol starts to overheat like the small suns it fires, damaging the internals. This is likely to either destroy the pistol outright or futz with the cooling racks enough that they’ll have to be field-swapped which is damn hard to do in the middle of a fight.",
+    "sp": 0
+  },
+  {
+    "id": "gs_plasma_repeater",
+    "name": "PLASMA REPEATER",
+    "mount": "Main",
+    "type": "Rifle",
+    "source": "G&S",
+    "license": "JACK",
+    "license_level": 2,
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }],
+      "tags":[      {
+        "id": "tg_limited",
+        "val": 5
+      }],
+    "effect": "As a Limited (5) Attack, you may “Supercharge” this weapon, gaining the AP and Unreliable (2) Tags. When you are out of Limited charges, you may still attack with the base profile and a high Engineering score will add more Limited charges as normal.<br><br><b> UNRELIABLE 2:</b> When you attack with this weapon, roll 1d6. On a 4+ the attack gains +2 Difficulty, and deals +4 Bonus Damage on hit.",
+    "description": "Really just an upscaled version of the plasma pistol, the Plasma Repeater suffers from many of the same problems of its smaller sibling, often getting so hot that the internals start to melt from the stress of firing. But! You can flip cock it to cycle cooling racks. And isn’t that all worth it?",
+    "sp": 0
+  },
+  {
+    "id": "gs_sprayer_gun",
+    "name": "Sprayer Gun",
+    "mount": "Main",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_nanite_coated_x",
+        "val": 2
+      },
+      {
+        "id": "tg_loading"
+      }   
+    ],
+    "source": "G&S",
+    "license": "DOROTHY",
+    "license_level": 1,
+    "description": "A simple, no nonsense shotgun, loaded with mech scale shells. But what’s more important is what’s in the shells: Stripper-Swarm nanites that tear at armor and bolster allies. Its name is technically incorrect... but hey! It does what it’ll need to do, hurt people and heal friends.",
+    "sp": 0
+  },
+  {
+    "id": "gs_rubble_blaster",
+    "name": "RUBBLE BLASTER",
+    "mount": "Main",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_inaccurate"
+      }   
+    ],
+    "source": "G&S",
+    "license": "DOROTHY",
+    "license_level": 2,
+    "effect": "While equipped with this weapon, you may make the Jackhammer action even if you lack the talent for it. If you would otherwise have Jackhammer, that action deals double damage.",
+    "description": "It does exactly what it says it does. It busts rubble wide open, to let mechs like Dorothy through to where people need saving. It's also really good at handling walls that aren’t rubble yet, but really, that’s just a side effect of the design.",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_layered_blade",
+    "name": "LAYERED BLADE",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_nanite_coated_x",
+        "val": 4
+      }   
+    ],
+    "source": "G&S",
+    "license": "DOROTHY",
+    "license_level": 3,
+    "description": "A short, chopping blade meant for clearing flora and other detritus in the course of the Dorothy’s normal role that has been modified with a regenerating stripper-swarm coating. In practice its much like a reactive blade. Only with the reactive coating being aggressive nanites rather than explosive material.",
+    "sp": 0
+  },
+  {
+    "id": "gs_rapid_print_cannon",
+    "name": "RAPID-PRINT CANNONS",
+    "mount": "Auxiliary",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 6
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_loading_x",
+        "val": 3
+      }   
+    ],
+    "source": "G&S",
+    "license": "MAGARAC",
+    "license_level": 1,
+    "effect": "This weapon has three chambers, all of which are reloaded when you take the Stabilize action (by printing a new gun). When you attack with this weapon, you may empty all of the chambers at once to grant this weapon Knockback 3<br>At your discretion, adjacent allies may remove this weapon from your mech as a protocol and use it themselves as an Integrated Auxiliary Cannon with Limited (3) rather than Loading. When you stabilize, you may Reclaim this weapon from any ally, removing it from their mech.",
+    "description": "If you replace the entire weapon mount with a weapons-grade printer, you can make some fine guns. They don’t have many shots and literally decay into semi-useful matter-goo after a couple of hours, but you can make them cheap and you can give them to people who need them. People who want to fight but don’t have anything else.",
+    "sp": 0
+  },
+  {
+    "id": "gs_portable_mortar_cannon",
+    "name": "PORTABLE MORTAR CANNON",
+    "mount": "Main",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Explosive",
+        "val": "2d6+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_emplacement"
+      },
+      {
+        "id": "tg_arcing"
+      }  
+    ],
+    "source": "G&S",
+    "license": "MAGARAC",
+    "license_level": 2,
+    "description": "A more powerful version of the weapon-printers common to the Magarac license, the Portable Mortar Cannon allows a pilot to print a short-lived artillery piece that can help it live up to the title of “Factory-Fortress”.",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_joyeuse_beam_saber",
+    "name": "JOYEUSE' BEAM SABER",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Variable",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_inaccurate"
+      }  
+    ],
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": 1,
+    "effect": "At the start of your turn you may choose whether this weapon deals Energy or Explosive damage.",
+    "description": "A badly contained blade of plasma that so many pilots refused to update that G&S made the poor containment a feature. A simple flick of a switch in the cockpit creates a timer on the blade, swing it just right and they’ll eat a faceful of sun-hot plasma. Or don’t flick the switch and keep a nice sharp sword of sunlight. Comes in over 300 shades!",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_astolfo_reactive_lance",
+    "name": "'Astolfo' Reactive Lance",
+    "mount": "Superheavy",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6+3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": 3,
+    "effect": "If you move 6 or more spaces in a straight line before attacking with this weapon it gains the AP tag and deals +1d6 bonus explosive damage.  Once per round, after successfully hitting an adjacent enemy with a Ram attack you may spend a quick action to make a special attack with this weapon against the same target.  This attack automatically hits but deals half damage.",
+    "description": "Ah, the Lance, most ancient of mounted fighting weapons. Why not stuff the bastard with explosives and see just how fast you can ram it through any fool who stands against you? After all, Pre-Fall stories tell of a knight with a magical lance that could unhorse any it touched. We at G&S think our reactive lance is up to the task.",
+    "sp": 0
+  },
+  {
+    "id": "gs_morgiana_revolver",
+    "name": "'MORGIANA' REVOLVER",
+    "mount": "Auxiliary",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_inaccurate"
+      },
+      {
+        "id": "tg_loading_x",
+        "val": 6
+      }
+    ],
+    "source": "G&S",
+    "license": "SCHEHERAZADE",
+    "license_level": 1,
+    "effect": "This weapon has six chambers, all of which are reloaded when you perform a reload and can be fired individually with the base profile or together to increase the base damage of this weapon by +1 for each additional chamber fired. You must declare how many chambers you are firing before rolling to attack.",
+    "description": "A reliable mech-scale revolver wasn’t actually part of the original designs of the Scheherazade core, but G&S can’t really let out a mech without at least one gun. Plus they don’t know how to build the original weapon meant to be used by the mech. Such manufacturing is beyond them and they are loathe to let the original Scheherazade data be seen by any not blood related to the Grimm clan.",
+    "sp": 0
+  },
+
+
+  {
+    "id": "gs_anti_hyperfauna_rifle",
+    "name": "ANTI-HYPERFAUNA RIFLE",
+    "mount": "Heavy",
+    "type": "Rifle",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      }
+    ],
+    "source": "G&S",
+    "license": "ANANSI",
+    "license_level": 3,
+    "effect": "At the start of a mission and whenever you Rest, pick a mode to assemble the rifle in:",
+    "profiles": [{
+      "name": "SKYGOD",
+      "range": [{
+        "type": "Range",
+        "val": 20
+      }],
+      "damage": [{
+        "type": "Kinetic",
+        "val": "2d6+2"
+      }],
+  "on_attack": "If you consumed Lock-On as part of this attack, this weapon gains the AP tag for the attack.",
+  "tags": [
+        {
+          "id": "tg_ordnance"
+        },
+        {
+          "id": "tg_loading"
+        }
+      ]
+    },
+    {
+      "name": "LEOPARD",
+      "range": [{
+        "type": "Range",
+        "val": 20
+      }],
+      "damage": [{
+        "type": "Kinetic",
+        "val": "2d6+2"
+      }],
+  "on_crit": "Reload this weapon as a free action.",
+  "tags": [
+    {
+      "id": "tg_ordnance"
+    },
+    {
+      "id": "tg_loading"
+    }]
+    }],
+    "description": "Hyperfauna are endemic to the frontier, worlds with more oxygen and bigger beasties still need to be tamed. Everybody’s heard of Vast, Daikaiju, and every other name these biological weapons go by! The AHR is a low-weight, ultra-high caliber, modular rifle designed for mechs braving the dangerous frontier. The modular bit is the important part, the AHR comes with parts for two modes- the speed loading LEOPARD and the precision bolt-action SKYGOD. Pick the right one for the job and drop a few monsters for me, eh?",
+    "sp": 1
+  },
+
+
+  {
+    "id": "gs_shot_saber",
+    "name": "SHOT-SABER",
+    "mount": "Main",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_exceed",
+        "val": 2
+      }
+    ],
+    "source": "G&S",
+    "license": "MAX",
+    "license_level": 2,
+    "effect": "Exceed (2): Make a Melee attack with this weapon targeting a different target within this weapon’s Threat.",
+    "description": "A weapon from a fallen age, wrought now for hands never meant to know such sorrows. Blade and gun in accord- chopping, slashing, shredding, belching gunsmoke and spilling blood. A symptom of lives gone and half lived. Take it up if you must, but keep it steady, keep it loaded, keep it sharp.<br>When all the world goes mad, it won’t keep you safe.<br>But it will keep you alive.",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_troublemaker_break_action",
+    "name": "'TROUBLEMAKER' BREAK ACTION",
+    "mount": "Main",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 3
+      },
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "source": "G&S",
+    "license": "MAX",
+    "license_level": 3,
+    "on_crit": "The target is knocked Prone. If the target was already Prone they must pass a Hull Save or become Shredded until they stand up.",
+    "description": "Crack the gun, let it spit hot shells onto blasted earth. Slide in two. Point. Fire. Break them. Punish them. Hurt them. Send them down and send them screaming. You are hellfire now, more rage than human.<br>You didn’t have to be. The world is better now. Why have you taken up a funeral dirge in your soul? Is the cause you seek worth the terror the ancients? Is it worth being haunted by dreams of dying mankind?",
+    "sp": 0
+  }
+]
